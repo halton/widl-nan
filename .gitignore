@@ -4,3 +4,7 @@ build
 closure-linter
 gen
 node_modules
+snap/parts/
+snap/prime/
+snap/stage/
+snap/*.snap

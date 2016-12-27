@@ -1,0 +1,16 @@
+name: widl-nan
+version: "0.1.9"
+summary: Auto generate native C++ addon source code by parsing Web IDL definition
+description: Auto generate native C++ addon source code by parsing Web IDL definition
+  https://www.npmjs.com/package/widl-nan
+confinement: strict
+
+apps:
+  widl-nan:
+    command: widl-nan
+
+parts:
+  widl-nan-node:
+    plugin: nodejs
+    node-packages:
+      - widl-nan
